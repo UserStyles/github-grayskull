@@ -1,0 +1,33 @@
+@-moz-document domain("github.com") {
+    *,*:before,*:after {
+        background-color: inherit !important;
+        background-image: none !important;
+        text-shadow: none !important;
+        box-shadow: none !important;
+        border-color: #bbb !important;
+    }
+
+    html,body {
+        background: #aaa !important;
+    }
+
+    pre,code,svg,.menu,#readme {
+        background: #ccc !important;
+    }
+
+    span,a {
+        background-color: transparent !important;
+    }
+
+    a {
+        color: #369 !important;
+    }
+
+    input[type=text],textarea {
+        background: #eee !important;
+    }
+
+    .modal-backdrop {
+        background-color: transparent !important;
+    }
+}
